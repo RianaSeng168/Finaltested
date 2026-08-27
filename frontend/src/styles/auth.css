@@ -1,0 +1,93 @@
+/* ===================== */
+/* Auth Pages (Login / Register / Forgot / Reset) */
+/* ===================== */
+
+.auth-section {
+  max-width: 480px;
+  margin: 160px auto 100px;
+  padding: 0 24px;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  padding: 45px 40px;
+}
+
+.auth-card h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.auth-card .muted {
+  margin-bottom: 28px;
+}
+
+.auth-links {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.auth-links a {
+  color: #b38b59;
+  font-weight: 600;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+/* Small text/icon button used for logout, edit/delete row actions, etc. */
+.link-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #333;
+  font-weight: 600;
+  padding: 0;
+}
+
+.link-btn:hover {
+  color: #b38b59;
+}
+
+.link-btn.danger {
+  color: #b02a1f;
+}
+
+.link-btn.danger:hover {
+  color: #7d1c15;
+}
+
+.nav-username {
+  font-size: 13px;
+  color: #444;
+  white-space: nowrap;
+}
+
+.page-loading {
+  margin: 200px auto;
+  text-align: center;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .auth-section {
+    margin: 140px auto 60px;
+  }
+
+  .auth-card {
+    padding: 32px 24px;
+  }
+}

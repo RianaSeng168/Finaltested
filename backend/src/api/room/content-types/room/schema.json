@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room",
+    "description": "A bookable room / service offered by the hotel."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "amenities": {
+      "type": "string",
+      "description": "Comma-separated list, e.g. 'King Bed, Free Wi-Fi, Balcony'"
+    },
+    "image": {
+      "type": "string",
+      "description": "Absolute or relative image URL"
+    }
+  }
+}
